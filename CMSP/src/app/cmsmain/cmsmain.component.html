@@ -1,0 +1,7 @@
+<p>cmsmain works!</p>
+<a  [routerLink]="['/cmsmain',
+ {outlets: {'data': ['customerlogin']}}]">customer login</a> &nbsp;&nbsp;&nbsp;&nbsp;
+ <router-outlet name='data'></router-outlet>
+ <a  [routerLink]="['/cmsmain',
+ {outlets: {'data': ['vendorlogin']}}]">vendor login</a> &nbsp;&nbsp;&nbsp;&nbsp;
+ <router-outlet name='data'></router-outlet>
